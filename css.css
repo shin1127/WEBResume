@@ -8,7 +8,16 @@ body {
   margin: auto;
 }
 
-table {
+img {
+  height: 560;
+  width: 420;
+}
+
+.headline {
+  font-weight: bold;
+}
+
+.education {
   margin: 0;
   padding: 0;
 }
@@ -28,10 +37,10 @@ td {
   width: 100px;
 }
 .detail {
-  width: 650px;
+  width: 647px;
 }
 
-.container {
+.containerA {
   display: grid;
   grid-template-rows: 100px 50px;
   grid-template-columns: 150px 500px 200px;
@@ -48,68 +57,165 @@ td {
 /* アイテム */
 
 .itemName {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaName;
-  background: green;
+  background: white;
 }
 .itemA {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaA;
-  background: #f88;
+  background: white;
 }
 .itemB {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  border-right: unset;
   grid-area: areaB;
-  background: #8f8;
+  background: white;
 }
 .itemC {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaC;
-  background: #88f;
+  background: white;
 }
 
 .itemD {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaD;
-  background: #88f;
+  background: white;
 }
 
 .itemE {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaE;
-  background: #88f;
+  background: white;
 }
 
 .itemF {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaF;
-  background: #88f;
+  background: white;
 }
 
 .itemG {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaG;
-  background: #88f;
+  background: white;
 }
 
 .itemH {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaH;
-  background: #88f;
+  background: white;
 }
 
 .itemI {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaI;
-  background: #88f;
+  background: white;
 }
 
 .itemJ {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaJ;
-  background: #88f;
+  background: white;
 }
 
 .itemK {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaK;
-  background: #88f;
+  background: white;
 }
 
 .itemL {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaL;
-  background: #88f;
+  background: white;
 }
 
 .itemM {
+  border-collapse: collapse;
+  border: 1px solid #333;
   grid-area: areaM;
-  background: #88f;
+  background: white;
+}
+
+table .others {
+  width: 850;
+  margin: 0;
+  padding: 0;
+}
+
+.containerB {
+  display: grid;
+  grid-template-rows: 100px 50px;
+  grid-template-columns: 425px 425px;
+  grid-template-areas:
+    "area1 area1"
+    "area2 area2"
+    "area7 area7"
+    "area3 area3"
+    "area4 area5"
+    "area6 area6";
+}
+
+.item1 {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  grid-area: area1;
+  background: white;
+}
+
+.item2 {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  grid-area: area2;
+  background: white;
+}
+
+.item3 {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  grid-area: area2;
+  background: white;
+}
+
+.item4 {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  grid-area: area4;
+  background: white;
+}
+
+.item5 {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  grid-area: area5;
+  background: white;
+}
+
+.item6 {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  grid-area: area6;
+  background: white;
+}
+
+.item7 {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  grid-area: area7;
+  background: white;
 }
