@@ -53,7 +53,7 @@ td {
   grid-template-columns: 150px 500px 200px;
   grid-template-areas:
     "areaA areaA areaA"
-    "areaB areaC areaName"
+    "areaB areaC areaF"
     "areaD areaE areaName"
     "areaH areaI areaName"
     "areaJ areaK areaName"
@@ -74,25 +74,29 @@ td {
   border: 1px solid #333;
   grid-area: areaName;
   background: white;
+  border-left: unset;
 }
 .itemA {
   border-collapse: collapse;
   border: 1px solid #333;
   grid-area: areaA;
   background: white;
+  border: unset;
 }
 .itemB {
   border-collapse: collapse;
   border: 1px solid #333;
-  border-right: unset;
   grid-area: areaB;
   background: white;
+  border-bottom: unset;
 }
 .itemC {
   border-collapse: collapse;
   border: 1px solid #333;
   grid-area: areaC;
   background: white;
+  border-bottom: unset;
+  border-left: unset;
 }
 
 .itemD {
@@ -100,6 +104,7 @@ td {
   border: 1px solid #333;
   grid-area: areaD;
   background: white;
+  border-bottom: unset;
 }
 
 .itemE {
@@ -107,6 +112,8 @@ td {
   border: 1px solid #333;
   grid-area: areaE;
   background: white;
+  border-bottom: unset;
+  border-left: unset;
 }
 
 .itemF {
@@ -114,6 +121,8 @@ td {
   border: 1px solid #333;
   grid-area: areaF;
   background: white;
+  border-bottom: unset;
+  border-left: unset;
 }
 
 .itemG {
@@ -121,6 +130,7 @@ td {
   border: 1px solid #333;
   grid-area: areaG;
   background: white;
+  border-bottom: unset;
 }
 
 .itemH {
@@ -128,6 +138,7 @@ td {
   border: 1px solid #333;
   grid-area: areaH;
   background: white;
+  border-bottom: unset;
 }
 
 .itemI {
@@ -135,6 +146,8 @@ td {
   border: 1px solid #333;
   grid-area: areaI;
   background: white;
+  border-bottom: unset;
+  border-left: unset;
 }
 
 .itemJ {
@@ -142,6 +155,7 @@ td {
   border: 1px solid #333;
   grid-area: areaJ;
   background: white;
+  border-bottom: unset;
 }
 
 .itemK {
@@ -149,6 +163,8 @@ td {
   border: 1px solid #333;
   grid-area: areaK;
   background: white;
+  border-bottom: unset;
+  border-left: unset;
 }
 
 .itemL {
@@ -163,6 +179,7 @@ td {
   border: 1px solid #333;
   grid-area: areaM;
   background: white;
+  border-left: unset;
 }
 
 table .others {
@@ -196,6 +213,8 @@ table .others {
   border: 1px solid #333;
   grid-area: area2;
   background: white;
+  border-bottom: unset;
+  border-top: unset;
 }
 
 .item3 {
@@ -203,6 +222,7 @@ table .others {
   border: 1px solid #333;
   grid-area: area3;
   background: white;
+  border-bottom: unset;
 }
 
 .item4 {
@@ -217,6 +237,7 @@ table .others {
   border: 1px solid #333;
   grid-area: area5;
   background: white;
+  border-left: unset;
 }
 
 .item6 {
@@ -224,6 +245,7 @@ table .others {
   border: 1px solid #333;
   grid-area: area6;
   background: white;
+  border-top: unset;
 }
 
 .item7 {
