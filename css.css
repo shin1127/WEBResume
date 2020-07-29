@@ -2,10 +2,17 @@ body {
   text-align: center;
   margin: 20px;
   padding: 0;
+  position: absolute;
 }
 
 .hoge {
   margin: auto;
+}
+
+hr {
+  height: 1px;
+  background-color: #333;
+  border: 1px;
 }
 
 img {
@@ -42,16 +49,22 @@ td {
 
 .containerA {
   display: grid;
-  grid-template-rows: 100px 50px;
+  grid-template-rows: 50px 40px 40px 40px 40px;
   grid-template-columns: 150px 500px 200px;
   grid-template-areas:
     "areaA areaA areaA"
     "areaB areaC areaName"
     "areaD areaE areaName"
-    "areaF areaG areaName"
     "areaH areaI areaName"
     "areaJ areaK areaName"
     "areaL areaM areaName";
+
+  line-height: 40px;
+}
+
+.title {
+  line-height: 50px;
+  font-size: 200%;
 }
 
 /* アイテム */
@@ -188,7 +201,7 @@ table .others {
 .item3 {
   border-collapse: collapse;
   border: 1px solid #333;
-  grid-area: area2;
+  grid-area: area3;
   background: white;
 }
 
