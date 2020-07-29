@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 50px;
+  grid-template-columns: 150px 800px;
+  grid-template-areas:
+    "areaA areaA"
+    "areaB areaC"
+    "areaD areaE"
+    "areaF areaG"
+    "areaH areaI"
+    "areaJ areaK"
+    "areaL areaM";
+}
+
+/* アイテム */
+.itemA {
+  grid-area: areaA;
+  background: #f88;
+}
+.itemB {
+  grid-area: areaB;
+  background: #8f8;
+}
+.itemC {
+  grid-area: areaC;
+  background: #88f;
+}
+
+.itemD {
+  grid-area: areaD;
+  background: #88f;
+}
+
+.itemE {
+  grid-area: areaE;
+  background: #88f;
+}
+
+.itemF {
+  grid-area: areaF;
+  background: #88f;
+}
+
+.itemG {
+  grid-area: areaG;
+  background: #88f;
+}
+
+.itemH {
+  grid-area: areaH;
+  background: #88f;
+}
+
+.itemI {
+  grid-area: areaI;
+  background: #88f;
+}
+
+.itemJ {
+  grid-area: areaJ;
+  background: #88f;
+}
+
+.itemK {
+  grid-area: areaK;
+  background: #88f;
+}
+
+.itemL {
+  grid-area: areaL;
+  background: #88f;
+}
+
+.itemM {
+  grid-area: areaM;
+  background: #88f;
+}
