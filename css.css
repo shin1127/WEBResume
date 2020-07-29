@@ -1,23 +1,56 @@
 body {
   text-align: center;
   margin: 20px;
+  padding: 0;
+}
+
+.hoge {
+  margin: auto;
+}
+
+table {
+  margin: 0;
+  padding: 0;
+}
+
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  margin: 0;
+  padding: 0;
+}
+
+th,
+td {
+  width: 100px;
+}
+.detail {
+  width: 650px;
 }
 
 .container {
   display: grid;
   grid-template-rows: 100px 50px;
-  grid-template-columns: 150px 800px;
+  grid-template-columns: 150px 500px 200px;
   grid-template-areas:
-    "areaA areaA"
-    "areaB areaC"
-    "areaD areaE"
-    "areaF areaG"
-    "areaH areaI"
-    "areaJ areaK"
-    "areaL areaM";
+    "areaA areaA areaA"
+    "areaB areaC areaName"
+    "areaD areaE areaName"
+    "areaF areaG areaName"
+    "areaH areaI areaName"
+    "areaJ areaK areaName"
+    "areaL areaM areaName";
 }
 
 /* アイテム */
+
+.itemName {
+  grid-area: areaName;
+  background: green;
+}
 .itemA {
   grid-area: areaA;
   background: #f88;
