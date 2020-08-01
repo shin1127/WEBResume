@@ -1,5 +1,8 @@
 # WEBResume
 
+## URL
+https://shin1127.github.io/WEBResume/
+
 ## Introduction
 Web履歴書のフォーマットをHTMLとCSSで作った。  
 CSS Grid Layoutという技術を利用している。
