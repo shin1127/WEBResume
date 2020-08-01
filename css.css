@@ -16,6 +16,7 @@ img {
 
 .headline {
   font-weight: bold;
+  background-color: #f2f2f2;
 }
 
 .education {
@@ -37,6 +38,11 @@ th,
 td {
   width: 100px;
 }
+
+th {
+  background-color: #f2f2f2;
+}
+
 .detail {
   width: 647px;
 }
@@ -184,7 +190,7 @@ table .others {
 
 .containerB {
   display: grid;
-  grid-template-rows: 100px 50px;
+  grid-template-rows: 50px;
   grid-template-columns: 425px 425px;
   grid-template-areas:
     "area1 area1"
