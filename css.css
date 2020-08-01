@@ -9,12 +9,6 @@ body {
   margin: auto;
 }
 
-hr {
-  height: 1px;
-  background-color: #333;
-  border: 1px;
-}
-
 img {
   height: 560;
   width: 420;
@@ -34,7 +28,7 @@ tr,
 th,
 td {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   margin: 0;
   padding: 0;
 }
@@ -71,28 +65,28 @@ td {
 
 .itemName {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaName;
   background: white;
   border-left: unset;
 }
 .itemA {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaA;
   background: white;
   border: unset;
 }
 .itemB {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaB;
   background: white;
   border-bottom: unset;
 }
 .itemC {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaC;
   background: white;
   border-bottom: unset;
@@ -101,7 +95,7 @@ td {
 
 .itemD {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaD;
   background: white;
   border-bottom: unset;
@@ -109,7 +103,7 @@ td {
 
 .itemE {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaE;
   background: white;
   border-bottom: unset;
@@ -118,7 +112,7 @@ td {
 
 .itemF {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaF;
   background: white;
   border-bottom: unset;
@@ -127,7 +121,7 @@ td {
 
 .itemG {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaG;
   background: white;
   border-bottom: unset;
@@ -135,7 +129,7 @@ td {
 
 .itemH {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaH;
   background: white;
   border-bottom: unset;
@@ -143,7 +137,7 @@ td {
 
 .itemI {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaI;
   background: white;
   border-bottom: unset;
@@ -152,7 +146,7 @@ td {
 
 .itemJ {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaJ;
   background: white;
   border-bottom: unset;
@@ -160,7 +154,7 @@ td {
 
 .itemK {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaK;
   background: white;
   border-bottom: unset;
@@ -169,14 +163,14 @@ td {
 
 .itemL {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaL;
   background: white;
 }
 
 .itemM {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: areaM;
   background: white;
   border-left: unset;
@@ -198,19 +192,20 @@ table .others {
     "area7 area7"
     "area3 area3"
     "area4 area5"
-    "area6 area6";
+    "area6 area6"
+    "area8 area8";
 }
 
 .item1 {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: area1;
   background: white;
 }
 
 .item2 {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: area2;
   background: white;
   border-bottom: unset;
@@ -219,7 +214,7 @@ table .others {
 
 .item3 {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: area3;
   background: white;
   border-bottom: unset;
@@ -227,14 +222,14 @@ table .others {
 
 .item4 {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: area4;
   background: white;
 }
 
 .item5 {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: area5;
   background: white;
   border-left: unset;
@@ -242,7 +237,7 @@ table .others {
 
 .item6 {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: area6;
   background: white;
   border-top: unset;
@@ -250,7 +245,17 @@ table .others {
 
 .item7 {
   border-collapse: collapse;
-  border: 1px solid #333;
+  border: 2px solid #333;
   grid-area: area7;
   background: white;
+}
+
+.item8 {
+  border-collapse: collapse;
+  border: 2px solid #333;
+  grid-area: area8;
+  background: white;
+  text-align: right;
+  border: unset;
+  font-family: "Times New Roman";
 }
